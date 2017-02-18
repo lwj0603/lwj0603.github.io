@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css" type="text/css">
     <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>Luara</title>
 </head>
+
 <body>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
+
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">Luara</a>
+            <a class="navbar-brand" href="#">Luara</a>
         </div>
+
         <div>
-            <ul class="nav navbar-nav ">
-                <li id="ac1" class="active"><a href="/">活动1</a></li>
-                <li id="ac2"><a href="/">活动2</a></li>
-                <li id="ac3"><a href="/">活动3</a></li>
-                <li id="ac4"><a href="/">活动4</a></li>
+            <ul class="nav navbar-nav">
+                <li class="active"><a data-toggle="tab" href="#ac1">活动1</a></li>
+                <li><a data-toggle="tab" href="#ac2">活动2</a></li>
+                <li><a data-toggle="tab" href="#ac3">活动3</a></li>
+                <li><a data-toggle="tab" href="#ac4">活动4</a></li>
             </ul>
         </div>
 
-        <tab>
-            <div id="ac1">活动1</div>
-            <div id="ac2">活动2</div>
-            <div id="ac3">活动3</div>
-            <div id="ac4">活动4</div>
-        </tab>
     </div>
 </nav>
 
-<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<div class="tab-content">
+    <div id="ac1" class="tab-pane active">
+        <div class="container">
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/001.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/001.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/002.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/002.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/003.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/003.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/004.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/004.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/005.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/005.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/006.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/006.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/007.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/007.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/008.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/008.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/009.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/009.jpg"></a>
+            <a target="blank" href="http://olk81jnmn.bkt.clouddn.com/0010.jpg"><img src="http://olk81jnmn.bkt.clouddn.com/010.jpg"></a>
+        </div>
+    </div>
+    <div id="ac2" class="tab-pane">
+        <div class="container"></div>
+    </div>
+    <div id="ac3" class="tab-pane">
+        <div class="container"></div>
+    </div>
+    <div id="ac4" class="tab-pane">
+        <div class="container"></div>
+    </div>
+</div>
+
 </body>
+
 </html>
